@@ -1,0 +1,25 @@
+{
+  "name": "repro-nuxt-4-5-vite-8",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "storybook": "storybook dev --no-open -p 6006"
+  },
+  "dependencies": {
+    "nuxt": "4.5.1",
+    "vue": "3.5.21",
+    "vue-router": "4.5.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/storybook": "9.0.1",
+    "@storybook-vue/nuxt": "9.0.1",
+    "storybook": "9.1.20",
+    "vite": "7.3.6"
+  },
+  "overrides": {
+    "nuxt": {
+      "vite": "8.2.0"
+    }
+  }
+}
+
